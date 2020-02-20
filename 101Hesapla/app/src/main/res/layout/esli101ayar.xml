@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/blueback"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grup İsimlerini Giriniz"
+        android:textSize="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:textColor="@color/beyaz"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Grup İsmi"
+        android:layout_marginTop="160dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:textColor="@color/siyah"
+        />
+
+    <EditText
+        android:id="@+id/grup1Ad"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/giris"
+        android:maxLength="12"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Grup İsmi"
+        android:layout_marginTop="210dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:textColor="@color/siyah"
+        />
+
+    <EditText
+        android:id="@+id/grup2Ad"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="214dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/giris"
+        android:maxLength="12"
+        />
+
+    <Button
+        android:id="@+id/oyuncukaydet"
+        android:layout_width="320dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/okeybuton"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/group"
+        android:layout_marginTop="300dp"
+        />
+
+
+</RelativeLayout>

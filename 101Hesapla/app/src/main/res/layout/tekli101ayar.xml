@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/blueback"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oyuncu İsimlerini Giriniz"
+        android:textSize="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/beyaz"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Oyuncu İsmi"
+        android:layout_marginTop="160dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/siyah"
+
+        />
+
+    <EditText
+        android:id="@+id/oyuncu1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/giris"
+        android:maxLength="7"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Oyuncu İsmi"
+        android:layout_marginTop="210dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/siyah"
+        />
+
+    <EditText
+        android:id="@+id/oyuncu2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="214dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/giris"
+        android:maxLength="7"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Oyuncu İsmi"
+        android:layout_marginTop="260dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/siyah"
+        />
+    <EditText
+        android:id="@+id/oyuncu3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="264dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/giris"
+        android:maxLength="7"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Oyuncu İsmi"
+        android:layout_marginTop="310dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/siyah"
+        />
+    <EditText
+        android:id="@+id/oyuncu4"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="314dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/giris"
+        android:maxLength="7"
+        />
+
+    <Button
+        android:id="@+id/oyuncukaydet"
+        android:layout_width="320dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="170dp"
+        android:textSize="15dp"
+        android:background="@drawable/okeybuton"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/group"
+        android:layout_marginTop="410dp"
+        />
+
+</RelativeLayout>

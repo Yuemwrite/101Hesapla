@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity"
+    tools:context=".MainActivity"
+    android:background="@drawable/blueback"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="101 Hesaplama Ekranı"
+        android:textSize="30dp"
+        android:textColor="@color/beyaz"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/esli101btn"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="160dp"
+        android:textSize="20dp"
+        android:text="Eşli 101"
+        android:textAlignment="center"
+        android:textScaleX="1.6"
+        android:textStyle="bold"
+        android:background="@drawable/btn"
+        />
+
+    <Button
+        android:id="@+id/tekli101"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="260dp"
+        android:textSize="20dp"
+        android:textScaleX="1.6"
+        android:text="Tekli 101"
+        android:textStyle="bold"
+        android:background="@drawable/btn"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/okey"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/nasilOynanir"
+        android:layout_width="240dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/aciklama"
+        />
+
+
+
+
+
+
+</RelativeLayout>

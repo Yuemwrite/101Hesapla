@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplanbeyaz"
+    >
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@drawable/blue"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eşli Oyun Tablosu"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textColor="@color/beyaz"
+        />
+    <TextView
+        android:id="@+id/grup1Ad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Grup 1"
+        android:textSize="25dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginLeft="42dp"
+        android:textColor="@color/siyah"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/grup2Ad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Grup 2"
+        android:textSize="25dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginLeft="240dp"
+        android:textColor="@color/siyah"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:background="#666"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_marginTop="140dp"/>
+    <TextView
+        android:background="#666"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_marginTop="610dp"/>
+    <TextView
+        android:background="#666"
+        android:layout_width="6dp"
+        android:layout_height="470dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="190dp"/>
+    <EditText
+        android:text="0"
+        android:id="@+id/g11"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="1. el"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g12"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="2. el"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g13"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="3. el"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g14"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="4. el"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g15"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="5. el"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g16"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="6. el"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g17"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="7. el"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g18"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="8. el"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g19"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="9. el"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g110"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="10. el"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g111"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="11. el"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="50dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g21"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="1. el"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="250dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g22"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="2. el"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="250dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g23"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="3. el"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="250dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g24"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="4. el"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="250dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g25"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="5. el"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="250dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g26"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="6. el"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="250dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g27"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="7. el"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="250dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g28"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="8. el"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="250dp"
+        />
+
+    <EditText
+        android:text="0"
+        android:id="@+id/g29"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="9. el"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="250dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g210"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="10. el"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="250dp"
+        />
+    <EditText
+        android:text="0"
+        android:id="@+id/g211"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="11. el"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="250dp"
+        />
+    <TextView
+        android:id="@+id/grup1ToplamPuan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="65dp"
+        android:text="0"
+        android:textSize="22dp"
+        android:textColor="@color/yeşil"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/grup2ToplamPuan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="280dp"
+        android:text="0"
+        android:textSize="22dp"
+        android:textColor="@color/yeşil"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/SkorHesapla"
+        android:layout_width="157dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="620dp"
+        android:text="Hesapla"
+        android:background="@drawable/green3"
+        android:textColor="@color/beyaz"
+        />
+
+    <Button
+        android:id="@+id/OyunBitir"
+        android:layout_width="157dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="620dp"
+        android:text="Oyunu Bitir"
+        android:visibility="invisible"
+        android:background="@drawable/yellow"
+        android:textColor="@color/beyaz"
+        />
+    <Button
+        android:id="@+id/g1Ceza"
+        android:layout_width="157dp"
+        android:layout_height="50dp"
+        android:text="Ceza Ver"
+        android:textColor="@color/beyaz"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="18dp"
+        android:onClick="cezaEkle"
+        android:background="@drawable/cezaver2"
+        />
+
+    <Button
+        android:id="@+id/g2Ceza"
+        android:layout_width="157dp"
+        android:layout_height="50dp"
+        android:text="Ceza Ver"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="230dp"
+        android:onClick="cezaEkle2"
+        android:background="@drawable/cezaver2"
+        android:textColor="@color/beyaz"
+        />
+
+
+
+</RelativeLayout>

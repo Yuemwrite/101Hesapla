@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/isler1"
+        android:title="İşler Attı"/>
+
+    <item android:id="@+id/okey1"
+        android:title="Okey Attı"/>
+
+    <item android:id="@+id/yanlisel1"
+        android:title="Yanlış El Açtı"/>
+
+    <item android:id="@+id/okeyialindi"
+        android:title="Okeyi Alındı"/>
+
+</menu>
